@@ -1,6 +1,12 @@
-Projekt A 
+# Projekt A 
 
-# Zadani
+## Popis
+
+Projekt využívá [CoinGeico](https://www.coingecko.com/) API, pomocí které získává informace o vypraných kryproměnách a zobrazuje jejich
+informace ve grafu pomocí knihovny [Chart.js](https://www.chartjs.org/).
+
+Dokumentace k CoinGeico API - [Documentation](https://docs.coingecko.com/reference/introduction)
+## Zadani
 - jedná se o projekt, který bude v režii studenta, tj. vybere si zaměření i téma
 podle toho, co je mu blízké příp. co může spojit s projekty jiných předmětů, s praxí, apod.
 S odevzdáním projektu se počítá až na konec semestru, tj. od 2.12.2024. Bližší specifikaci
