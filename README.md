@@ -6,6 +6,9 @@ Projekt využívá [CoinGeico](https://www.coingecko.com/) API, pomocí které z
 informace ve grafu pomocí knihovny [Chart.js](https://www.chartjs.org/).
 
 Dokumentace k CoinGeico API - [Documentation](https://docs.coingecko.com/reference/introduction)
+
+Odkaz na stránky - [ProjektA](https://martinrihak.github.io/VIA_ProjektA/)
+
 ## Zadani
 - jedná se o projekt, který bude v režii studenta, tj. vybere si zaměření i téma
 podle toho, co je mu blízké příp. co může spojit s projekty jiných předmětů, s praxí, apod.
