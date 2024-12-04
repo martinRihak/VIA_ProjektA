@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>TypeScript a jQuery</title>
+</head>
+<body>
+    <main>
+        <div class="filter">
+            <h1>Crypto Finder</h1>
+            <div class="datalist_container">
+                <label for="crypto_name">Zadej jmeno Crypta</label>
+                <input type="text" id="crypto_search" list="crypto_list" autocomplete="off">
+                <ul id="crypto_list" class="datalist"></ul>
+            </div>
+            
+            <div class="datalist_container">
+                <label for="about">Zadej částu</label>
+                <input type="text" id="fiat_search" list="fiat_list" autocomplete="off">
+                <ul id="fiat_list" class="datalist"></ul>
+                                
+            </div>
+            <div>
+                <button id="calculate" class="btn">Vyhledat</button>
+            </div>
+            
+        
+            
+        </div>
+        <div class="chart_container">
+            <canvas id="priceChart" width="400" height="200"></canvas>
+        </div>
+        <div id="crypto_data"></div>
+
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(231, 227, 226);
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    //align-items: center;
+}
+main{
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;width: 100%;
+    align-items: flex-start;
+}
+.filter{
+    flex: 1; /* Zabírá menší část prostoru */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.chart_container {
+    flex: 2; /* Graf zabírá větší část prostoru */
+    padding: 0px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+.btn {
+    margin-top: 200px; /* Přidá mezery nad tlačítkem */
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover{
+        transition: 0.3s;
+        background-color: rgb(255, 6, 6);
+    }
+}
+.datalist_container {
+    position: relative;
+
+}
+.invest_container{
+    position: relative;
+    width: auto;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+
+  }
+  
+.datalist {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none; /* Skryté, dokud není potřeba */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li{
+        padding: 8px;
+        cursor: pointer;
+        &:hover{
+            background-color: #e29d9d;
+        }
+    }
+}
+/* Nastavení velikosti plátna */
+canvas {
+    width: 100% ;
+    height: auto !important;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+
+
+  
